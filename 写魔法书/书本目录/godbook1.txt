@@ -1,0 +1,693 @@
+1
+新源
+{\"text\":\"新源\",\"color\":\"#EC8B86\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/reload\"}}
+2
+神源
+{\"text\":\"神源\",\"color\":\"#2A31D8\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/function give:book\"}}
+3
+奇点传送
+{\"text\":\"奇点传送\",\"color\":\"#203108\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/tp @s 0 ~ 0\"}}
+4
+神赐\\n塑能魔法\\n
+{\"text\":\"神赐\\n塑能魔法\\n\",\"color\":\"#FFD030\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/function give:magic\"}}
+5
+  火滋
+{\"text\":\"  火滋\",\"color\":\"#AA3030\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/summon minecraft:fireball ^ ^1 ^0.5 {ExplosionPower:1b}\"}}
+6
+火球
+{\"text\":\"火球\",\"color\":\"#EEA030\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/summon minecraft:fireball ^ ^1 ^0.5 {ExplosionPower:5b}\"}}
+7
+大火球
+{\"text\":\"大火球\",\"color\":\"#EE5030\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/summon minecraft:fireball ^ ^1 ^0.5 {ExplosionPower:10b}\"}}
+8
+焚环\\n  
+{\"text\":\"焚环\\n  \",\"color\":\"#FF5D44\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute as @e[distance=0.1..12] run data modify entity @s Fire set value 32767\"}}
+9
+爆炸射线
+{\"text\":\"爆炸射线\",\"color\":\"#D58F70\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/function magic:boom\"}}
+10
+高阶火球
+{\"text\":\"高阶火球\",\"color\":\"#EE7030\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/summon minecraft:fireball ^ ^1 ^0.5 {ExplosionPower:15b}\"}}
+11
+\\n  高阶火球炮
+{\"text\":\"\\n  高阶火球炮\",\"color\":\"#FF3030\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/function magic:gun\"}}
+12
+霆痕
+{\"text\":\"霆痕\",\"color\":\"#F6EB1E\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute facing entity @e[distance=1..30,type=!#minecraft:arrows,type=!minecraft:item] feet run function magic:lightening\"}}
+13
+引雷
+{\"text\":\"引雷\",\"color\":\"#D6EB1E\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute as @e[distance=5..27] at @s run summon minecraft:lightning_bolt\"}}
+14
+\\n  爆炸冲击
+{\"text\":\"\\n  爆炸冲击\",\"color\":\"#D6EB1E\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute as @e[distance=0.5..40,type=!#minecraft:arrows,type=!minecraft:item] at @s facing entity @p eyes run summon minecraft:tnt ^ ^ ^0.5\"}}
+15
+火环
+{\"text\":\"火环\",\"color\":\"#FF5D44\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/function world:ring_of_fire\"}}
+16
+火柱
+{\"text\":\"火柱\",\"color\":\"#EE1D44\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute as @e[type=!minecraft:item,distance=4..25] at @s positioned ~ ~-2 ~ run function magic:firepillar\"}}
+19
+熄灭\\n  
+{\"text\":\"熄灭\\n  \",\"color\":\"#000080\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fill ~-30 ~-10 ~-30 ~30 ~30 ~30 air replace fire\"}}
+20
+星光
+{\"text\":\"星光\",\"color\":\"#F0C000\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/function create:light\"}}
+21
+天光
+{\"text\":\"天光\",\"color\":\"#F09010\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fill ~-55 ~45 ~-55 ~55 ~45 ~55 light replace air\"}}
+22
+解
+{\"text\":\"解\",\"color\":\"#D08000\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fill ~-60 ~42 ~-60 ~55 ~47 ~60 air replace light\"}}
+23
+光束方
+{\"text\":\"光束方\",\"color\":\"#F09010\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fill ^ ^ ^ ^ ^3 ^100 light replace air\"}}
+24
+解\\n  
+{\"text\":\"解\\n  \",\"color\":\"#D08000\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fill ^ ^ ^ ^ ^3 ^100 air replace light\"}}
+26
+点石成金
+{\"text\":\"点石成金\",\"color\":\"#E6EB1E\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute positioned ^ ^1 ^1 as @e[distance=..3,type=item] run data merge entity @s {Item:{id:\\\"minecraft:gold_ingot\\\",tag:{Enchantments:[{lvl:10s,id:\\\"minecraft:sharpness\\\"}],display:{Name:'{\\\"text\\\":\\\"蕴含大量魔力的黄金\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true,\\\"italic\\\":false}'}}}}\"}}
+27
+暗金
+{\"text\":\"暗金\",\"color\":\"#A6AB1E\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute positioned ^ ^1 ^1 as @e[distance=..3,type=item] run data merge entity @s {Item:{id:\\\"minecraft:netherite_ingot\\\",tag:{Enchantments:[{lvl:1s,id:\\\"minecraft:sharpness\\\"}],display:{Name:'{\\\"text\\\":\\\"蕴含极少魔力的暗金\\\",\\\"color\\\":\\\"#D1D121\\\",\\\"bold\\\":true,\\\"italic\\\":false}'}}}}\"}}
+28
+钻石
+{\"text\":\"钻石\",\"color\":\"#16ABDE\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute positioned ^ ^1 ^1 as @e[distance=..3,type=item] run data merge entity @s {Item:{id:\\\"minecraft:diamond\\\",tag:{Enchantments:[{lvl:4s,id:\\\"minecraft:sharpness\\\"}],display:{Name:'{\\\"text\\\":\\\"蕴含些许魔力的钻石\\\",\\\"color\\\":\\\"#16ABDE\\\",\\\"bold\\\":true,\\\"italic\\\":false}'}}}}\"}}
+34
+金块
+{\"text\":\"金块\",\"color\":\"#DCD10D\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/setblock ~ ~-1 ~ minecraft:gold_block\"}}
+35
+\\n  漂浮飞弹
+{\"text\":\"\\n  漂浮飞弹\",\"color\":\"#026D8D\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/function magic:missile\"}}
+36
+飞弹爆炸
+{\"text\":\"飞弹爆炸\",\"color\":\"#F2AD0D\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute as @e[type=minecraft:shulker_bullet,distance=4..70] at @s run summon tnt ~ ~ ~\"}}
+38
+\\n  冰柩
+{\"text\":\"\\n  冰柩\",\"color\":\"#6C81FD\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute as @e[distance=1..27,type=!#minecraft:arrows,type=!minecraft:item] at @s run function magic:icecoffin\"}}
+39
+曜屋
+{\"text\":\"曜屋\",\"color\":\"#1C314D\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute as @e[distance=1..27,type=!#minecraft:arrows,type=!minecraft:item] at @s run fill ~-3 ~-1 ~-3 ~3 ~5 ~3 obsidian outline\"}}
+47
+陨石
+{\"text\":\"陨石\",\"color\":\"#F59F30\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute as @e[type=!minecraft:fireball,type=!#minecraft:arrows,type=!minecraft:item,distance=10..45,limit=5,sort=random] positioned ~ ~40 ~ facing entity @s feet rotated ~ ~9 run function magic:gun\"}}
+48
+星陨
+{\"text\":\"星陨\",\"color\":\"#F56F40\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute as @e[type=!minecraft:fireball,type=!minecraft:area_effect_cloud,type=!minecraft:dragon_fireball,type=!#minecraft:arrows,type=!minecraft:item,distance=10..45] at @s positioned ~ ~50 ~ rotated ~ 90 run summon fireball ~ ~ ~ {ExplosionPower:15,Motion:[0d,-9d,0d]}\"}}
+49
+陨息
+{\"text\":\"陨息\",\"color\":\"#F56FD0\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute as @e[type=!minecraft:fireball,type=!minecraft:area_effect_cloud,type=!minecraft:dragon_fireball,type=!#minecraft:arrows,type=!minecraft:item,distance=10..45] at @s positioned ~ ~50 ~ rotated ~ 90 run summon dragon_fireball ~ ~ ~ {Motion:[0d,-9d,0d]}\"}}
+80
+\\n天地魔法
+{\"text\":\"\\n天地魔法\",\"color\":\"#00FFFF\"}
+82
+\\n  晴
+{\"text\":\"\\n  晴\",\"color\":\"#392921\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/weather clear\"}}
+83
+雨
+{\"text\":\"雨\",\"color\":\"#026DFD\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/weather rain\"}}
+84
+雷天
+{\"text\":\"雷天\",\"color\":\"#824DAD\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/weather thunder\"}}
+85
+玄
+{\"text\":\"玄\",\"color\":\"#626D6D\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fillbiome ~-40 ~-30 ~-40 ~40 ~20 ~40 minecraft:basalt_deltas\"}}
+86
+沙
+{\"text\":\"沙\",\"color\":\"#D2CD6D\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fillbiome ~-40 ~-30 ~-40 ~40 ~20 ~40 minecraft:desert\"}}
+87
+茂
+{\"text\":\"茂\",\"color\":\"#52FD6D\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fillbiome ~-40 ~-30 ~-40 ~40 ~20 ~40 minecraft:lush_caves\"}}
+89
+雪域\\n  
+{\"text\":\"雪域\\n  \",\"color\":\"#52ADFD\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/fillbiome ~-40 ~-30 ~-40 ~40 ~20 ~40 minecraft:snowy_taiga\"}}
+90
+晨
+{\"text\":\"晨\",\"color\":\"#FEFE09\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/time set 23500\"}}
+91
+昏
+{\"text\":\"昏\",\"color\":\"#FDA333\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/time set 12500\"}}
+92
+午
+{\"text\":\"午\",\"color\":\"#A8A350\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/time set 6000\"}}
+93
+夜
+{\"text\":\"夜\",\"color\":\"#000C0B\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/time set 18000\"}}
+96
+回转
+{\"text\":\"回转\",\"color\":\"#83FC0B\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/time add 191500\"}}
+97
+前进500t\\n
+{\"text\":\"前进500t\\n\",\"color\":\"#F37C6B\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/time add 500\"}}
+98
+  日月回转
+{\"text\":\"  日月回转\",\"color\":\"#830CFB\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/time add 24000\"}}
+99
+前进1天\\n
+{\"text\":\"前进1天\\n\",\"color\":\"#030C6B\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/time add 168000\"}}
+101
+空间魔法\\n
+{\"text\":\"空间魔法\\n\",\"color\":\"#AFAAAF\"}
+102
+  闪现
+{\"text\":\"  闪现\",\"color\":\"#A611CD\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/tp @s ^ ^ ^10\"}}
+103
+携闪
+{\"text\":\"携闪\",\"color\":\"#A611FD\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/tp @e[distance=..3] ^ ^ ^60\"}}
+104
+跃迁
+{\"text\":\"跃迁\",\"color\":\"#A6A1AD\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/tp @e[distance=..6] ^ ^ ^200\"}}
+105
+Ⅰ
+{\"text\":\"Ⅰ\",\"color\":\"#B6B1BD\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/tp @e[distance=..6] ^ ^ ^400\"}}
+106
+Ⅱ
+{\"text\":\"Ⅱ\",\"color\":\"#B6B1BD\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/tp @e[distance=..6] ^ ^ ^800\"}}
+107
+Ⅲ
+{\"text\":\"Ⅲ\",\"color\":\"#B6B1BD\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/tp @e[distance=..6] ^ ^ ^1600\"}}
+108
+\\n  瞬移到箭
+{\"text\":\"\\n  瞬移到箭\",\"color\":\"#4A45AF\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute at @e[type=minecraft:arrow,limit=1,sort=nearest] run tp @s ~ ~ ~\"}}
+109
+实体
+{\"text\":\"实体\",\"color\":\"#4D0F1B\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute at @e[type=!minecraft:player,limit=1,sort=nearest] run tp @s ^ ^1 ^-1\"}}
+110
+表传送\\n
+{\"text\":\"表传送\\n\",\"color\":\"#0621CD\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/spreadplayers ~ ~ 2 20 under 300 true @e[distance=..3]\"}}
+111
+  高空千万米
+{\"text\":\"  高空千万米\",\"color\":\"#5EA606\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/tp @p ~ 10000000 ~\"}}
+112
+1M米\\n
+{\"text\":\"1M米\\n\",\"color\":\"#95931F\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/tp @p ~ 1000000 ~\"}}
+113
+  10万米
+{\"text\":\"  10万米\",\"color\":\"#75BB18\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/tp @p ~ 100000 ~\"}}
+114
+万米
+{\"text\":\"万米\",\"color\":\"#75BB18\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/tp @p ~ 10000 ~\"}}
+115
+1km
+{\"text\":\"1km\",\"color\":\"#AA4AF7\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/tp @p ~ 1000 ~\"}}
+116
+300米\\n
+{\"text\":\"300米\\n\",\"color\":\"#96BA5D\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/tp @p ~ 300 ~\"}}
+119
+  实体湮灭Ⅰ
+{\"text\":\"  实体湮灭Ⅰ\",\"color\":\"#9255F4\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/kill @e[distance=0.1..10]\"}}
+120
+Ⅱ\\n
+{\"text\":\"Ⅱ\\n\",\"color\":\"#0255D4\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/kill @e[distance=0.1..60]\"}}
+125
+  地冲
+{\"text\":\"  地冲\",\"color\":\"#888524\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute as @e[distance=0.5..27] run data modify entity @s Motion set value [0d,3d,0d]\"}}
+126
+Ⅰ
+{\"text\":\"Ⅰ\",\"color\":\"#988524\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute as @e[distance=0.5..27] run data modify entity @s Motion set value [0d,8d,0d]\"}}
+127
+Ⅱ
+{\"text\":\"Ⅱ\",\"color\":\"#A88524\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute as @e[distance=0.5..27] run data modify entity @s Motion set value [0d,10d,0d]\"}}
+128
+天冲
+{\"text\":\"天冲\",\"color\":\"#188594\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute as @e[distance=0.5..27] run data modify entity @s Motion set value [0d,-3d,0d]\"}}
+129
+Ⅰ
+{\"text\":\"Ⅰ\",\"color\":\"#189594\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute as @e[distance=0.5..27] run data modify entity @s Motion set value [0d,-8d,0d]\"}}
+130
+Ⅱ
+{\"text\":\"Ⅱ\",\"color\":\"#18A594\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute as @e[distance=0.5..27] run data modify entity @s Motion set value [0d,-10d,0d]\"}}
+131
+\\n  动量剥离
+{\"text\":\"\\n  动量剥离\",\"color\":\"#181594\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute as @e[distance=0.5..40] run data modify entity @s Motion set value [0d,0d,0d]\"}}
+132
+万象天引\\n
+{\"text\":\"万象天引\\n\",\"color\":\"#989594\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute as @e[distance=2..50,type=!minecraft:player] at @s facing entity @p eyes positioned as @s run tp ^ ^ ^5\"}}
+133
+  异维传送下
+{\"text\":\"  异维传送下\",\"color\":\"#FF0000\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute in minecraft:the_nether run tp @s ~ ~ ~\"}}
+134
+终
+{\"text\":\"终\",\"color\":\"#AA00FF\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute in minecraft:the_end run tp @s ~ ~ ~\"}}
+135
+主
+{\"text\":\"主\",\"color\":\"#AADDFF\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute in minecraft:overworld run tp @s ~ ~ ~\"}}
+139
+\\n  重力剥离
+{\"text\":\"\\n  重力剥离\",\"color\":\"#A17314\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute as @e[distance=1..20] run data modify entity @s NoGravity set value 1\"}}
+140
+赋予
+{\"text\":\"赋予\",\"color\":\"#3F2F0F\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute as @e[distance=1..20] run data modify entity @s NoGravity set value 0\"}}
+142
+空间锚
+{\"text\":\"空间锚\",\"color\":\"#5F2F5F\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/forceload add ~ ~\"}}
+144
+解
+{\"text\":\"解\",\"color\":\"#6F2F6F\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/forceload remove ~ ~\"}}
+150
+\\n  坐标Ⅰ
+{\"text\":\"\\n  坐标Ⅰ\",\"color\":\"#5F4F5F\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/summon minecraft:armor_stand ~ ~ ~ {Tags:[\\\"chuansong1\\\"],NoGravity:1b,Invisible:1b}\"}}
+151
+Ⅱ
+{\"text\":\"Ⅱ\",\"color\":\"#6F4F6F\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/summon minecraft:armor_stand ~ ~ ~ {Tags:[\\\"chuansong2\\\"],NoGravity:1b,Invisible:1b}\"}}
+152
+Ⅲ
+{\"text\":\"Ⅲ\",\"color\":\"#7F4F7F\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/summon minecraft:armor_stand ~ ~ ~ {Tags:[\\\"chuansong3\\\"],NoGravity:1b,Invisible:1b}\"}}
+153
+Ⅳ
+{\"text\":\"Ⅳ\",\"color\":\"#8F4F8F\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/summon minecraft:armor_stand ~ ~ ~ {Tags:[\\\"chuansong4\\\"],NoGravity:1b,Invisible:1b}\"}}
+154
+Ⅴ
+{\"text\":\"Ⅴ\",\"color\":\"#9F4F9F\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/summon minecraft:armor_stand ~ ~ ~ {Tags:[\\\"chuansong5\\\"],NoGravity:1b,Invisible:1b}\"}}
+155
+Ⅵ
+{\"text\":\"Ⅵ\",\"color\":\"#AF4FAF\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/summon minecraft:armor_stand ~ ~ ~ {Tags:[\\\"chuansong6\\\"],NoGravity:1b,Invisible:1b}\"}}
+156
+Ⅶ
+{\"text\":\"Ⅶ\",\"color\":\"#BF4FBF\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/summon minecraft:armor_stand ~ ~ ~ {Tags:[\\\"chuansong7\\\"],NoGravity:1b,Invisible:1b}\"}}
+157
+Ⅷ
+{\"text\":\"Ⅷ\",\"color\":\"#CF4FCF\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/summon minecraft:armor_stand ~ ~ ~ {Tags:[\\\"chuansong8\\\"],NoGravity:1b,Invisible:1b}\"}}
+158
+Ⅸ
+{\"text\":\"Ⅸ\",\"color\":\"#DF4FDF\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/summon minecraft:armor_stand ~ ~ ~ {Tags:[\\\"chuansong9\\\"],NoGravity:1b,Invisible:1b}\"}}
+159
+Ⅹ
+{\"text\":\"Ⅹ\",\"color\":\"#EF4FEF\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/summon minecraft:armor_stand ~ ~ ~ {Tags:[\\\"chuansong10\\\"],NoGravity:1b,Invisible:1b}\"}}
+160
+\\n  道标Ⅰ
+{\"text\":\"\\n  道标Ⅰ\",\"color\":\"#5F8F5F\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/tag @e[distance=0.01..6,sort=nearest,limit=1] add chuansong1\"}}
+161
+Ⅱ
+{\"text\":\"Ⅱ\",\"color\":\"#5F9F5F\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/tag @e[distance=0.01..7,sort=nearest,limit=1] add chuansong2\"}}
+162
+Ⅲ
+{\"text\":\"Ⅲ\",\"color\":\"#5FAF5F\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/tag @e[distance=0.01..8,sort=nearest,limit=1] add chuansong3\"}}
+163
+Ⅳ
+{\"text\":\"Ⅳ\",\"color\":\"#5FBF5F\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/tag @e[distance=0.01..9,sort=nearest,limit=1] add chuansong4\"}}
+170
+移除Ⅰ
+{\"text\":\"移除Ⅰ\",\"color\":\"#5F8F5F\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/tag @e[distance=0.01..6,sort=nearest,limit=1] remove chuansong1\"}}
+171
+Ⅱ
+{\"text\":\"Ⅱ\",\"color\":\"#5F9F5F\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/tag @e[distance=0.01..7,sort=nearest,limit=1] remove chuansong2\"}}
+172
+Ⅲ
+{\"text\":\"Ⅲ\",\"color\":\"#5FAF5F\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/tag @e[distance=0.01..8,sort=nearest,limit=1] remove chuansong3\"}}
+173
+Ⅳ
+{\"text\":\"Ⅳ\",\"color\":\"#5FBF5F\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/tag @e[distance=0.01..9,sort=nearest,limit=1] remove chuansong4\"}}
+180
+\\n  传送Ⅰ
+{\"text\":\"\\n  传送Ⅰ\",\"color\":\"#3F2F0F\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute at @e[tag=chuansong1,sort=random,limit=1] run tp @p ~ ~ ~\"}}
+182
+Ⅱ
+{\"text\":\"Ⅱ\",\"color\":\"#3F2F1F\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute at @e[tag=chuansong2,sort=random,limit=1] run tp @p ~ ~ ~\"}}
+184
+Ⅲ
+{\"text\":\"Ⅲ\",\"color\":\"#3F2F2F\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute at @e[tag=chuansong3,sort=random,limit=1] run tp @p ~ ~ ~\"}}
+186
+Ⅳ
+{\"text\":\"Ⅳ\",\"color\":\"#3F2F3F\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute at @e[tag=chuansong4,sort=random,limit=1] run tp @p ~ ~ ~\"}}
+188
+Ⅴ
+{\"text\":\"Ⅴ\",\"color\":\"#3F2F4F\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute at @e[tag=chuansong5,sort=random,limit=1] run tp @p ~ ~ ~\"}}
+190
+Ⅵ
+{\"text\":\"Ⅵ\",\"color\":\"#3F2F5F\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute at @e[tag=chuansong6,sort=random,limit=1] run tp @p ~ ~ ~\"}}
+192
+Ⅶ
+{\"text\":\"Ⅶ\",\"color\":\"#3F2F6F\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute at @e[tag=chuansong7,sort=random,limit=1] run tp @p ~ ~ ~\"}}
+194
+Ⅷ
+{\"text\":\"Ⅷ\",\"color\":\"#3F2F7F\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute at @e[tag=chuansong8,sort=random,limit=1] run tp @p ~ ~ ~\"}}
+195
+Ⅸ
+{\"text\":\"Ⅸ\",\"color\":\"#3F2F8F\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute at @e[tag=chuansong9,sort=random,limit=1] run tp @p ~ ~ ~\"}}
+196
+Ⅹ
+{\"text\":\"Ⅹ\",\"color\":\"#3F2F9F\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute at @e[tag=chuansong10,sort=random,limit=1] run tp @p ~ ~ ~\"}}
+199
+\\n  
+{\"text\":\"\\n  \",\"color\":\"#AABBAA\"}
+201
+预言魔法\\n  
+{\"text\":\"预言魔法\\n  \",\"color\":\"#AABBAA\"}
+202
+解析实体
+{\"text\":\"解析实体\",\"color\":\"#6103C4\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/data get entity @e[sort=nearest,limit=1,type=!minecraft:player]\"}}
+203
+容器
+{\"text\":\"容器\",\"color\":\"#0FFFFF\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/data get block ^ ^0.5 ^0.5\"}}
+204
+\\n  实体探查Ⅰ
+{\"text\":\"\\n  实体探查Ⅰ\",\"color\":\"#A103C4\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute as @e[distance=0.01..10] run msg @p orz\"}}
+205
+Ⅱ
+{\"text\":\"Ⅱ\",\"color\":\"#B103C4\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute as @e[distance=10..60] run msg @p orz\"}}
+209
+\\n始源魔法\\n  
+{\"text\":\"\\n始源魔法\\n  \",\"color\":\"#1ABBAA\"}
+210
+晋升真神
+{\"text\":\"晋升真神\",\"color\":\"#F103C4\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/gamemode creative\"}}
+211
+摘除神格
+{\"text\":\"摘除神格\",\"color\":\"#0F0FFF\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/gamemode survival\"}}
+212
+灵化\\n
+{\"text\":\"灵化\\n\",\"color\":\"#3F3F3F\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/gamemode spectator\"}}
+214
+  不朽赋予
+{\"text\":\"  不朽赋予\",\"color\":\"#F1D314\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute as @e[distance=1..5] run data modify entity @s Invulnerable set value 1\"}}
+215
+不朽剥夺\\n
+{\"text\":\"不朽剥夺\\n\",\"color\":\"#0F0F0F\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute as @e[distance=1..10] run data modify entity @s Invulnerable set value 0\"}}
+219
+召唤魔法
+{\"text\":\"召唤魔法\",\"color\":\"#6AFFAA\"}
+220
+\\n
+{\"text\":\"\\n\"}
+221
+  不朽狗
+{\"text\":\"  不朽狗\",\"color\":\"#FFAA00\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/summon wolf ^0 ^2 ^1 {Invulnerable:1b,HandItems:[{id:\\\"minecraft:totem_of_undying\\\",Count:1b},{id:\\\"minecraft:totem_of_undying\\\",Count:1b}],Owner:[I;261158063,-29476764,-2145509145,-487076899]}\"}}
+222
+神犬
+{\"text\":\"神犬\",\"color\":\"#DD33DD\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/summon wolf ^0 ^2 ^1 {CustomNameVisible:1,Invulnerable:1,HandItems:[{id:\\\"minecraft:totem_of_undying\\\",Count:1b},{id:\\\"minecraft:totem_of_undying\\\",Count:1b}],CustomName:'[{\\\"text\\\":\\\"[不朽的]\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"牧羊犬\\\",\\\"color\\\":\\\"light_purple\\\"}]',Attributes:[{Base:1,Name:'generic.movement_speed'},{Base:2048,Name:'generic.attack_damage'}],Owner:[I;261158063,-29476764,-2145509145,-487076899]}\"}}
+223
+炎马
+{\"text\":\"炎马\",\"color\":\"#DD3311\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/summon horse ^0 ^0 ^1 {CustomNameVisible:1,HandItems:[{id:\\\"minecraft:totem_of_undying\\\",Count:1b},{id:\\\"minecraft:totem_of_undying\\\",Count:1b}],CustomName:'[{\\\"text\\\":\\\"[不朽的]\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"烈焰马\\\",\\\"color\\\":\\\"red\\\"}]',HasVisualFire:1,Invulnerable:1,Health:1024,Tame:1,SaddleItem:{id:'minecraft:saddle',Count:1b},Attributes:[{Base:1024,Name:'generic.max_health'},{Base:0.8,Name:'generic.movement_speed'},{Base:4,Name:'horse.jump_strength'}]}\"}}
+224
+神傀
+{\"text\":\"神傀\",\"color\":\"#5CD1FD\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/summon iron_golem ^0 ^2 ^1 {CustomNameVisible:1,Invulnerable:1,CustomName:'[{\\\"text\\\":\\\"[不朽的]\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"神傀\\\",\\\"color\\\":\\\"light_purple\\\"}]',active_effects:[{duration:-1,show_icon:1b,amplifier:5b,ambient:0b,id:\\\"minecraft:jump_boost\\\",show_particles:0b}],Attributes:[{Base:2,Name:'generic.movement_speed'},{Base:2048,Name:'generic.attack_damage'},{Operation:0,UUID:[I;-67898286,-70735193,-88506210,-68847943],Amount:100,AttributeName:\\\"generic.follow_range\\\",Name:\\\"followRange\\\"}],HandItems:[{id:\\\"minecraft:totem_of_undying\\\",Count:1b},{id:\\\"minecraft:totem_of_undying\\\",Count:1b}]}\"}}
+225
+\\n  终焉龙
+{\"text\":\"\\n  终焉龙\",\"color\":\"#AC119D\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/summon ender_dragon ^0 ^2 ^1 {CustomNameVisible:1,Invulnerable:1,CustomName:'[{\\\"text\\\":\\\"[不朽的]\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"终焉之龙\\\",\\\"color\\\":\\\"dark_purple\\\"}]',Attributes:[{Base:1,Name:'generic.movement_speed'},{Base:2048,Name:'generic.attack_damage'}],HandItems:[{id:\\\"minecraft:totem_of_undying\\\",Count:1b},{id:\\\"minecraft:totem_of_undying\\\",Count:1b}]}\"}}
+226
+杀戮者
+{\"text\":\"杀戮者\",\"color\":\"#6C111D\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/summon vindicator ^0 ^2 ^1 {CustomNameVisible:1,Invulnerable:1,Johnny:1b,CustomName:'[{\\\"text\\\":\\\"[不朽的]\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"杀戮者\\\",\\\"color\\\":\\\"dark_red\\\"}]',active_effects:[{duration:-1,show_icon:1b,amplifier:5b,ambient:0b,id:\\\"minecraft:jump_boost\\\",show_particles:0b}],Attributes:[{Base:2,Name:'generic.movement_speed'},{Base:2048,Name:'generic.attack_damage'},{Operation:0,UUID:[I;-67898286,-70735193,-88506210,-68847943],Amount:100,AttributeName:\\\"generic.follow_range\\\",Name:\\\"followRange\\\"}],HandItems:[{id:\\\"minecraft:totem_of_undying\\\",Count:1b},{id:\\\"minecraft:totem_of_undying\\\",Count:1b}]}\"}}
+227
+渊兽
+{\"text\":\"渊兽\",\"color\":\"#1C11AD\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/summon warden ^0 ^2 ^1 {CustomNameVisible:1,Invulnerable:1,CustomName:'[{\\\"text\\\":\\\"[不朽的]\\\",\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"深渊巨兽\\\",\\\"color\\\":\\\"yellow\\\"}]',active_effects:[{duration:-1,show_icon:1b,amplifier:5b,ambient:0b,id:\\\"minecraft:jump_boost\\\",Brain:{memories:{\\\"minecraft:dig_cooldown\\\":{value:{},ttl:1000L}}},show_particles:0b}],Attributes:[{Base:2,Name:'generic.movement_speed'},{Base:2048,Name:'generic.attack_damage'},{Operation:0,UUID:[I;-67898286,-70735193,-88506210,-68847943],Amount:100,AttributeName:\\\"generic.follow_range\\\",Name:\\\"followRange\\\"}],HandItems:[{id:\\\"minecraft:totem_of_undying\\\",Count:1b},{id:\\\"minecraft:totem_of_undying\\\",Count:1b}]}\"}}
+233
+\\n世界魔法\\n
+{\"text\":\"\\n世界魔法\\n\",\"color\":\"#D1C311\"}
+235
+  日月行
+{\"text\":\"  日月行\",\"color\":\"#CD8311\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/gamerule doDaylightCycle true\"}}
+236
+止
+{\"text\":\"止\",\"color\":\"#AD7311\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/gamerule doDaylightCycle false\"}}
+237
+生物破
+{\"text\":\"生物破\",\"color\":\"#CD8311\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/gamerule mobGriefing true\"}}
+238
+禁\\n  
+{\"text\":\"禁\\n  \",\"color\":\"#AD7311\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/gamerule mobGriefing false\"}}
+239
+生物掉
+{\"text\":\"生物掉\",\"color\":\"#CDF311\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/gamerule doMobLoot true\"}}
+240
+禁
+{\"text\":\"禁\",\"color\":\"#ADF311\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/gamerule doMobLoot false\"}}
+241
+火焰蔓延
+{\"text\":\"火焰蔓延\",\"color\":\"#FD7311\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/gamerule doFireTick true\"}}
+242
+禁\\n
+{\"text\":\"禁\\n\",\"color\":\"#6D0311\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/gamerule doFireTick false\"}}
+301
+时间魔法
+{\"text\":\"时间魔法\",\"color\":\"#EEEE99\"}
+303
+\\n  时间静止
+{\"text\":\"\\n  时间静止\",\"color\":\"#F3E06B\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/tick freeze\"}}
+304
+解冻
+{\"text\":\"解冻\",\"color\":\"#D3C06B\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/tick unfreeze\"}}
+305
+步进1t
+{\"text\":\"步进1t\",\"color\":\"#E3B06B\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/tick step 1t\"}}
+306
+5t
+{\"text\":\"5t\",\"color\":\"#C3B06B\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/tick step 5t\"}}
+308
+\\n  时间减缓Ⅳ
+{\"text\":\"\\n  时间减缓Ⅳ\",\"color\":\"#E3E01B\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/tick rate 5\"}}
+309
+Ⅹ
+{\"text\":\"Ⅹ\",\"color\":\"#E3E01B\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/tick rate 2\"}}
+310
+XX
+{\"text\":\"XX\",\"color\":\"#E3E01B\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/tick rate 1\"}}
+314
+正常
+{\"text\":\"正常\",\"color\":\"#D3D01B\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/tick rate 20\"}}
+330
+\\n神秘魔法\\n
+{\"text\":\"\\n神秘魔法\\n\",\"color\":\"#A30C6B\"}
+331
+  抗性Ⅴ
+{\"text\":\"  抗性Ⅴ\",\"color\":\"#837C1B\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/effect give @s minecraft:resistance 300 5\"}}
+332
+群抗Ⅴ
+{\"text\":\"群抗Ⅴ\",\"color\":\"#030CAB\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/effect give @e[distance=..5] minecraft:resistance 300 5\"}}
+333
+慢
+{\"text\":\"慢\",\"color\":\"#030C3B\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/effect give @e[distance=0.1..5] minecraft:slowness 600 100\"}}
+334
+弱
+{\"text\":\"弱\",\"color\":\"#430C3B\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/effect give @e[distance=0.1..5] minecraft:weakness 600 100\"}}
+339
+\\n  隐
+{\"text\":\"\\n  隐\",\"color\":\"#039CAB\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/effect give @s minecraft:invisibility 900 1\"}}
+340
+运
+{\"text\":\"运\",\"color\":\"#03FC6B\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/effect give @s minecraft:luck 900 100\"}}
+341
+羽
+{\"text\":\"羽\",\"color\":\"#03FCDB\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/effect give @s minecraft:slow_falling 900 1\"}}
+342
+夜
+{\"text\":\"夜\",\"color\":\"#03FCDB\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/effect give @s minecraft:night_vision 900 1\"}}
+343
+生
+{\"text\":\"生\",\"color\":\"#03FC0B\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/effect give @s minecraft:regeneration 900 20\"}}
+344
+饱
+{\"text\":\"饱\",\"color\":\"#F37C7B\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/effect give @s minecraft:saturation 900 1\"}}
+345
+海
+{\"text\":\"海\",\"color\":\"#036CFB\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/effect give @s minecraft:conduit_power 900 1\"}}
+346
+疾
+{\"text\":\"疾\",\"color\":\"#13CC9B\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/effect give @p minecraft:speed 900 10\"}}
+348
+跃\\n  
+{\"text\":\"跃\\n  \",\"color\":\"#13FC9B\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/effect give @p minecraft:jump_boost 900 10\"}}
+350
+飞
+{\"text\":\"飞\",\"color\":\"#F36C9B\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/effect give @e[distance=..3] minecraft:levitation 30 3\"}}
+351
+升
+{\"text\":\"升\",\"color\":\"#036C9B\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/effect give @e[distance=..3] minecraft:levitation 300 100\"}}
+352
+盾
+{\"text\":\"盾\",\"color\":\"#F3FC0B\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/effect give @p minecraft:absorption 900 100\"}}
+353
+急
+{\"text\":\"急\",\"color\":\"#D3FC0B\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/effect give @p minecraft:haste 900 100\"}}
+357
+效果加持
+{\"text\":\"效果加持\",\"color\":\"#03FCDB\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute as @e[distance=0.1..4] run data modify entity @s ActiveEffects append from entity @p ActiveEffects\"}}
+358
+清空
+{\"text\":\"清空\",\"color\":\"#939C9B\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/effect clear @e[distance=..5]\"}}
+360
+\\n  替换盔
+{\"text\":\"\\n  替换盔\",\"color\":\"#B31CDB\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute as @e[distance=0.1..6] run data modify entity @s ArmorItems[3] set from entity @e[type=minecraft:item,sort=nearest,limit=1] Item\"}}
+361
+铠
+{\"text\":\"铠\",\"color\":\"#931CDB\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute as @e[distance=0.1..6] run data modify entity @s ArmorItems[2] set from entity @e[type=minecraft:item,sort=nearest,limit=1] Item\"}}
+362
+甲
+{\"text\":\"甲\",\"color\":\"#731CDB\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute as @e[distance=0.1..6] run data modify entity @s ArmorItems[1] set from entity @e[type=minecraft:item,sort=nearest,limit=1] Item\"}}
+363
+鞋
+{\"text\":\"鞋\",\"color\":\"#531CDB\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute as @e[distance=0.1..6] run data modify entity @s ArmorItems[0] set from entity @e[type=minecraft:item,sort=nearest,limit=1] Item\"}}
+364
+主
+{\"text\":\"主\",\"color\":\"#A3ACAB\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute as @e[distance=0.1..6] run data modify entity @s HandItems[0] set from entity @e[type=minecraft:item,sort=nearest,limit=1] Item\"}}
+365
+副手\\n  
+{\"text\":\"副手\\n  \",\"color\":\"#A35CAB\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute as @e[distance=0.1..6] run data modify entity @s HandItems[1] set from entity @e[type=minecraft:item,sort=nearest,limit=1] Item\"}}
+366
+锋锐
+{\"text\":\"锋锐\",\"color\":\"#A6AB1E\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute positioned ^ ^1 ^1 as @e[distance=..3,type=item] run data merge entity @s {Item:{tag:{Enchantments:[{lvl:127s,id:\\\"minecraft:sharpness\\\"}],display:{Lore:['{\\\"text\\\":\\\"铭刻了增加伤害的魔法咒纹\\\",\\\"color\\\":\\\"#D1D121\\\",\\\"bold\\\":false,\\\"italic\\\":false}']}}}}\"}}
+368
+修补
+{\"text\":\"修补\",\"color\":\"#D6CB1E\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute positioned ^ ^1 ^1 as @e[distance=..3,type=item] run data merge entity @s {Item:{tag:{Enchantments:[{lvl:1s,id:\\\"minecraft:mending\\\"}],display:{Lore:['{\\\"text\\\":\\\"铭刻了自我修补的魔法回路\\\",\\\"color\\\":\\\"#D1D121\\\",\\\"bold\\\":false,\\\"italic\\\":false}']}}}}\"}}
+369
+掠夺
+{\"text\":\"掠夺\",\"color\":\"#D68B1E\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute positioned ^ ^1 ^1 as @e[distance=..3,type=item] run data merge entity @s {Item:{tag:{Enchantments:[{lvl:10s,id:\\\"minecraft:looting\\\"}],display:{Lore:['{\\\"text\\\":\\\"铭刻了掠夺的魔法灵纹\\\",\\\"color\\\":\\\"#D18121\\\",\\\"bold\\\":false,\\\"italic\\\":false}']}}}}\"}}
+371
+允许装备
+{\"text\":\"允许装备\",\"color\":\"#531C7B\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute as @e[distance=0.1..4] run data modify entity @s CanPickUpLoot set value 1b\"}}
+373
+\\n  生物巨大Ⅰ
+{\"text\":\"\\n  生物巨大Ⅰ\",\"color\":\"#A35CAB\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute as @e[distance=0.1..6] run data modify entity @s Size set value 10\"}}
+374
+Ⅱ
+{\"text\":\"Ⅱ\",\"color\":\"#A35C9B\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute as @e[distance=0.1..6] run data modify entity @s Size set value 20\"}}
+375
+Ⅲ
+{\"text\":\"Ⅲ\",\"color\":\"#A35C7B\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute as @e[distance=0.1..6] run data modify entity @s Size set value 40\"}}
+376
+Ⅳ
+{\"text\":\"Ⅳ\",\"color\":\"#A35C5B\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute as @e[distance=0.1..6] run data modify entity @s Size set value 60\"}}
+377
+Ⅴ
+{\"text\":\"Ⅴ\",\"color\":\"#A35C3B\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute as @e[distance=0.1..6] run data modify entity @s Size set value 80\"}}
+378
+Ⅵ\\n
+{\"text\":\"Ⅵ\\n\",\"color\":\"#A35C5B\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute as @e[distance=0.1..6] run data modify entity @s Size set value 120\"}}
+382
+  复制成八
+{\"text\":\"  复制成八\",\"color\":\"#A3FC5B\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/data modify entity @e[limit=1,type=item,sort=nearest] Item.Count set value 8b\"}}
+383
+成64
+{\"text\":\"成64\",\"color\":\"#63FC5B\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/data modify entity @e[limit=1,type=item,sort=nearest] Item.Count set value 64b\"}}
+384
+一命
+{\"text\":\"一命\",\"color\":\"#A3EC3B\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute as @e[distance=..10] run data modify entity @s HandItems[1] set value {id:\\\"minecraft:totem_of_undying\\\",Count:1b}\"}}
+386
+二命\\n
+{\"text\":\"二命\\n\",\"color\":\"#A3DC5B\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute as @e[distance=..10] run data modify entity @s HandItems[0] set value {id:\\\"minecraft:totem_of_undying\\\",Count:1b}\"}}
+401
+帝阶仙法：彼岸无量花\\n
+{\"text\":\"帝阶仙法：彼岸无量花\\n\",\"color\":\"#EA3FAA\"}
+403
+  花之殇夷
+{\"text\":\"  花之殇夷\",\"color\":\"#F090A0\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute as @e[type=!minecraft:item,type=!#minecraft:arrows,type=!minecraft:area_effect_cloud,distance=2..25] at @s positioned ~ ~-2 ~ run function magic:cherry_flower\"}}
+407
+花瞬
+{\"text\":\"花瞬\",\"color\":\"#E080B0\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/function magic:cherry_teleport\"}}
+408
+天照
+{\"text\":\"天照\",\"color\":\"#501010\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute as @e[type=!minecraft:item,type=!#minecraft:arrows,type=!minecraft:area_effect_cloud,distance=2..25] at @s positioned ~ ~1 ~ run summon area_effect_cloud ^ ^ ^ {Duration:160,RadiusOnUse:1,DurationOnUse:20,WaitTime:1,Radius:3,RadiusPerTick:-0.05,Particle:squid_ink,effects:[{id:\\\"minecraft:instant_health\\\",amplifier:29,duration:100,ShowParticles:1},{id:\\\"minecraft:instant_damage\\\",amplifier:29,duration:100,ShowParticles:1}]}\"}}
+409
+花闪\\n  
+{\"text\":\"花闪\\n  \",\"color\":\"#F080B0\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/function magic:cherry_tp\"}}
+410
+彼岸
+{\"text\":\"彼岸\",\"color\":\"#D080B0\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/summon area_effect_cloud ^ ^1 ^9 {Duration:160,RadiusOnUse:1,DurationOnUse:20,WaitTime:1,Radius:8,RadiusPerTick:-0.05,Particle:cherry_leaves,effects:[{id:\\\"minecraft:instant_health\\\",amplifier:28,duration:100,ShowParticles:1},{id:\\\"minecraft:instant_damage\\\",amplifier:28,duration:100,ShowParticles:1}]}\"}}
+412
+永
+{\"text\":\"永\",\"color\":\"#D070D0\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/summon area_effect_cloud ^ ^1 ^3 {Duration:10000,RadiusOnUse:0,DurationOnUse:10000,WaitTime:1,Radius:2,RadiusPerTick:0,Particle:cherry_leaves,effects:[{id:\\\"minecraft:instant_health\\\",amplifier:29,duration:100,ShowParticles:1},{id:\\\"minecraft:instant_damage\\\",amplifier:29,duration:100,ShowParticles:1}]}\"}}
+413
+恒
+{\"text\":\"恒\",\"color\":\"#F080F0\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/summon area_effect_cloud ^ ^1 ^6 {Duration:10000,RadiusOnUse:0,DurationOnUse:10000,WaitTime:1,Radius:5,RadiusPerTick:0,Particle:cherry_leaves,effects:[{id:\\\"minecraft:instant_health\\\",amplifier:29,duration:100,ShowParticles:1},{id:\\\"minecraft:instant_damage\\\",amplifier:29,duration:100,ShowParticles:1}]}\"}}
+414
+往生花海\\n  
+{\"text\":\"往生花海\\n  \",\"color\":\"#F0A0C0\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/summon area_effect_cloud ~ ~0.3 ~ {Duration:160,RadiusOnUse:0.05,DurationOnUse:1,WaitTime:1,Radius:8,RadiusPerTick:-0.05,Particle:cherry_leaves,effects:[{id:\\\"minecraft:instant_health\\\",amplifier:28,duration:100,ShowParticles:1}]}\"}}
+420
+本命剑
+{\"text\":\"本命剑\",\"color\":\"#C090C0\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/summon minecraft:item_display ~ ~2 ~ {item:{id:\\\"golden_sword\\\",Count:1b},Tags:[\\\"sword\\\"]}\"}}
+421
+石
+{\"text\":\"石\",\"color\":\"#808080\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/data merge entity @e[type=minecraft:item_display,limit=1,sort=nearest] {item:{id:\\\"stone_sword\\\",Count:1b}}\"}}
+422
+金
+{\"text\":\"金\",\"color\":\"#F0F030\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/data merge entity @e[type=minecraft:item_display,limit=1,sort=nearest] {item:{id:\\\"golden_sword\\\",Count:1b}}\"}}
+423
+铁
+{\"text\":\"铁\",\"color\":\"#909090\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/data merge entity @e[type=minecraft:item_display,limit=1,sort=nearest] {item:{id:\\\"iron_sword\\\",Count:1b}}\"}}
+424
+晶
+{\"text\":\"晶\",\"color\":\"#0090F0\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/data merge entity @e[type=minecraft:item_display,limit=1,sort=nearest] {item:{id:\\\"diamond_sword\\\",Count:1b}}\"}}
+425
+黑
+{\"text\":\"黑\",\"color\":\"#400040\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/data merge entity @e[type=minecraft:item_display,limit=1,sort=nearest] {item:{id:\\\"netherite_sword\\\",Count:1b}}\"}}
+426
+木
+{\"text\":\"木\",\"color\":\"#40F040\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/data merge entity @e[type=minecraft:item_display,limit=1,sort=nearest] {item:{id:\\\"wooden_sword\\\",Count:1b}}\"}}
+427
+\\n  石斧
+{\"text\":\"\\n  石斧\",\"color\":\"#808080\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/data merge entity @e[type=minecraft:item_display,limit=1,sort=nearest] {item:{id:\\\"stone_axe\\\",Count:1b}}\"}}
+428
+金
+{\"text\":\"金\",\"color\":\"#F0F030\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/data merge entity @e[type=minecraft:item_display,limit=1,sort=nearest] {item:{id:\\\"golden_axe\\\",Count:1b}}\"}}
+429
+铁
+{\"text\":\"铁\",\"color\":\"#909090\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/data merge entity @e[type=minecraft:item_display,limit=1,sort=nearest] {item:{id:\\\"iron_axe\\\",Count:1b}}\"}}
+430
+晶
+{\"text\":\"晶\",\"color\":\"#0090F0\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/data merge entity @e[type=minecraft:item_display,limit=1,sort=nearest] {item:{id:\\\"diamond_axe\\\",Count:1b}}\"}}
+431
+黑
+{\"text\":\"黑\",\"color\":\"#400040\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/data merge entity @e[type=minecraft:item_display,limit=1,sort=nearest] {item:{id:\\\"netherite_axe\\\",Count:1b}}\"}}
+432
+魔
+{\"text\":\"魔\",\"color\":\"#A000A0\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/data merge entity @e[type=minecraft:item_display,limit=1,sort=nearest] {item:{tag:{Enchantments:[{lvl:1s,id:\\\"minecraft:sharpness\\\"}]}}}\"}}
+435
+\\n  石镰
+{\"text\":\"\\n  石镰\",\"color\":\"#808080\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/data merge entity @e[type=minecraft:item_display,limit=1,sort=nearest] {item:{id:\\\"stone_pickaxe\\\",Count:1b}}\"}}
+436
+金
+{\"text\":\"金\",\"color\":\"#F0F030\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/data merge entity @e[type=minecraft:item_display,limit=1,sort=nearest] {item:{id:\\\"golden_pickaxe\\\",Count:1b}}\"}}
+437
+铁
+{\"text\":\"铁\",\"color\":\"#909090\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/data merge entity @e[type=minecraft:item_display,limit=1,sort=nearest] {item:{id:\\\"iron_pickaxe\\\",Count:1b}}\"}}
+438
+晶
+{\"text\":\"晶\",\"color\":\"#0090F0\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/data merge entity @e[type=minecraft:item_display,limit=1,sort=nearest] {item:{id:\\\"diamond_pickaxe\\\",Count:1b}}\"}}
+439
+黑
+{\"text\":\"黑\",\"color\":\"#400040\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/data merge entity @e[type=minecraft:item_display,limit=1,sort=nearest] {item:{id:\\\"netherite_pickaxe\\\",Count:1b}}\"}}
+440
+犁
+{\"text\":\"犁\",\"color\":\"#301030\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/data merge entity @e[type=minecraft:item_display,limit=1,sort=nearest] {item:{id:\\\"netherite_hoe\\\",Count:1b}}\"}}
+441
+盾
+{\"text\":\"盾\",\"color\":\"#303030\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/data merge entity @e[type=minecraft:item_display,limit=1,sort=nearest] {item:{id:\\\"shield\\\",Count:1b}}\"}}
+442
+无
+{\"text\":\"无\",\"color\":\"#404040\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/data remove entity @e[type=minecraft:item_display,limit=1,sort=nearest] {item:{tag:{Enchantments:[{lvl:1s,id:\\\"minecraft:sharpness\\\"}]}}}\"}}
+446
+\\n  御剑
+{\"text\":\"\\n  御剑\",\"color\":\"#909090\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/tag @p add sworder\"}}
+447
+放剑
+{\"text\":\"放剑\",\"color\":\"#C09090\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/tag @p remove sworder\"}}
+448
+彼岸连剑
+{\"text\":\"彼岸连剑\",\"color\":\"#F09090\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/function sword:lianzhao\"}}
+449
+止
+{\"text\":\"止\",\"color\":\"#F09090\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/schedule clear sword:lianzhao\"}}
+450
+\\n仙帝宝库\\n
+{\"text\":\"\\n仙帝宝库\\n\",\"color\":\"#AAAF3A\"}
+452
+  金箍棒
+{\"text\":\"  金箍棒\",\"color\":\"gold\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/give @a blaze_rod{Enchantments:[{id:thorns,lvl:255},{id:fire_aspect,lvl:255},{id:sweeping,lvl:255},{id:looting,lvl:255}],display:{Name:'{\\\"text\\\":\\\"古老的金箍棒\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":\\\"true\\\"}',Lore:['{\\\"text\\\":\\\"ID:O_AI001\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":\\\"false\\\"}','{\\\"text\\\":\\\"不朽 神器\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":\\\"true\\\"}','{\\\"text\\\":\\\"蕴含强大力量的金棒，洪荒纪元的遗物\\\",\\\"color\\\":\\\"red\\\",\\\"bold\\\":\\\"true\\\"}','{\\\"text\\\":\\\"「仙纹之语」：\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":\\\"true\\\"}','{\\\"text\\\":\\\"此去为了，踏碎凌霄\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":\\\"true\\\"}','{\\\"text\\\":\\\"若一去不回，便一去不回\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":\\\"true\\\"}']},AttributeModifiers:[{Operation:0,UUID:[I;59038579,62272572,-78984583,26952409],Amount:1024,AttributeName:\\\"generic.max_health\\\",Name:\\\"maxHealth\\\",Slot:\\\"mainhand\\\"},{Operation:0,UUID:[I;144851,-4942728,-95649231,-18122006],Amount:1,AttributeName:\\\"generic.knockback_resistance\\\",Name:\\\"knockbackResistance\\\",Slot:\\\"mainhand\\\"},{Operation:0,UUID:[I;70573174,28157067,-78102911,28701925],Amount:1,AttributeName:\\\"generic.movement_speed\\\",Name:\\\"movementSpeed\\\",Slot:\\\"mainhand\\\"},{Operation:0,UUID:[I;81712710,-10095525,-98843182,-52583123],Amount:2048,AttributeName:\\\"generic.attack_damage\\\",Name:\\\"attackDamage\\\",Slot:\\\"mainhand\\\"},{Operation:0,UUID:[I;6085431,25233578,19827711,-32570410],Amount:20,AttributeName:\\\"generic.armor_toughness\\\",Name:\\\"armorToughness\\\",Slot:\\\"mainhand\\\"},{Operation:0,UUID:[I;67971122,-76194978,-78572166,-79314137],Amount:30,AttributeName:\\\"generic.armor\\\",Name:\\\"armor\\\",Slot:\\\"mainhand\\\"},{Operation:0,UUID:[I;84032380,98131012,-19079435,44795560],Amount:1024,AttributeName:\\\"generic.attack_speed\\\",Name:\\\"attackSpeed\\\",Slot:\\\"mainhand\\\"},{Operation:0,UUID:[I;53939616,11700320,20339596,36157608],Amount:1024,AttributeName:\\\"generic.luck\\\",Name:\\\"luck\\\",Slot:\\\"mainhand\\\"}]} 1\"}}
+454
+圣药
+{\"text\":\"圣药\",\"color\":\"#4AAFDA\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/give @a potion{display:{Name:'{\\\"text\\\":\\\"古老的圣魔药 \\\",\\\"color\\\":\\\"#A1D131\\\",\\\"bold\\\":\\\"true\\\"}',Lore:['{\\\"text\\\":\\\"ID:O_SM001\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":\\\"false\\\"}','{\\\"text\\\":\\\"神话 药水\\\",\\\"color\\\":\\\"red\\\",\\\"bold\\\":\\\"true\\\"}','{\\\"text\\\":\\\"封印了半神力量的药水，神秘时代的遗物\\\",\\\"color\\\":\\\"light_purple\\\",\\\"bold\\\":\\\"true\\\"}','{\\\"text\\\":\\\"「灵纹呓语」：\\\",\\\"color\\\":\\\"blue\\\",\\\"bold\\\":\\\"true\\\"}','{\\\"text\\\":\\\"伟大的群星之主、灵界的支配者\\\",\\\"color\\\":\\\"aqua\\\",\\\"bold\\\":\\\"true\\\"}','{\\\"text\\\":\\\"请赐予我彼岸的力量！\\\",\\\"color\\\":\\\"aqua\\\",\\\"bold\\\":\\\"true\\\"}']},CustomPotionEffects:[{Id:5,Amplifier:127,Duration:1000000,Ambient:1,ShowParticles:1,ShowIcon:1},{Id:8,Amplifier:12,Duration:1000000,Ambient:1,ShowParticles:1,ShowIcon:1},{Id:11,Amplifier:4,Duration:1000000,Ambient:1,ShowParticles:1,ShowIcon:1},{Id:1,Amplifier:16,Duration:1000000,Ambient:1,ShowParticles:1,ShowIcon:1},{Id:14,Amplifier:0,Duration:1000000,Ambient:1,ShowParticles:1,ShowIcon:1},{Id:16,Amplifier:0,Duration:1000000,Ambient:1,ShowParticles:1,ShowIcon:1},{Id:3,Amplifier:127,Duration:1000000,Ambient:1,ShowParticles:1,ShowIcon:1},{Id:23,Amplifier:0,Duration:1000000,Ambient:1,ShowParticles:1,ShowIcon:1},{Id:26,Amplifier:127,Duration:1000000,Ambient:1,ShowParticles:1,ShowIcon:1},{Id:29,Amplifier:127,Duration:1000000,Ambient:1,ShowParticles:1,ShowIcon:1},{Id:32,Amplifier:127,Duration:1000000,Ambient:1,ShowParticles:1,ShowIcon:1}],CustomPotionColor:[I;10682313],Color:[I;10682313],Potion:'minecraft:healing'} 1\"}}
+456
+烟花
+{\"text\":\"烟花\",\"color\":\"#FAAFDA\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/give @a firework_rocket{Fireworks:{Flight:3b,Explosions:[{Type:4b,Trail:1b,Flicker:1b,Colors:[I;6000865]},{Type:4b,Trail:1b,Flicker:1b,Colors:[I;8844316]},{Type:4b,Trail:1b,Flicker:1b,Colors:[I;11499115]},{Type:4b,Trail:1b,Flicker:1b,Colors:[I;15068030]},{Type:4b,Trail:1b,Flicker:1b,Colors:[I;2267205]},{Type:4b,Trail:1b,Flicker:1b,Colors:[I;16543216]},{Type:4b,Trail:1b,Flicker:1b,Colors:[I;3102959]},{Type:4b,Trail:1b,Flicker:1b,Colors:[I;349170]},{Type:4b,Trail:1b,Flicker:1b,Colors:[I;2567913]},{Type:4b,Trail:1b,Flicker:1b,Colors:[I;408068]},{Type:4b,Trail:1b,Flicker:1b,Colors:[I;738483]},{Type:4b,Trail:1b,Flicker:1b,Colors:[I;12951718]},{Type:4b,Trail:1b,Flicker:1b,Colors:[I;2758861]},{Type:4b,Trail:1b,Flicker:1b,Colors:[I;7474264]},{Type:4b,Trail:1b,Flicker:1b,Colors:[I;11148727]},{Type:4b,Trail:1b,Flicker:1b,Colors:[I;8529306]},{Type:4b,Trail:1b,Flicker:1b,Colors:[I;6904305]},{Type:4b,Trail:1b,Flicker:1b,Colors:[I;9820396]},{Type:4b,Trail:1b,Flicker:1b,Colors:[I;14288891]},{Type:4b,Trail:1b,Flicker:1b,Colors:[I;6321870]},{Type:4b,Trail:1b,Flicker:1b,Colors:[I;12858965]},{Type:4b,Trail:1b,Flicker:1b,Colors:[I;14930880]},{Type:4b,Trail:1b,Flicker:1b,Colors:[I;1337215]},{Type:4b,Trail:1b,Flicker:1b,Colors:[I;8677442]},{Type:4b,Trail:1b,Flicker:1b,Colors:[I;2044409]},{Type:4b,Trail:1b,Flicker:1b,Colors:[I;12480724]},{Type:4b,Trail:1b,Flicker:1b,Colors:[I;122947]},{Type:4b,Trail:1b,Flicker:1b,Colors:[I;8654326]},{Type:4b,Trail:1b,Flicker:1b,Colors:[I;528605]},{Type:4b,Trail:1b,Flicker:1b,Colors:[I;9200680]},{Type:4b,Trail:1b,Flicker:1b,Colors:[I;4085319]},{Type:4b,Trail:1b,Flicker:1b,Colors:[I;1817578]},{Type:4b,Trail:1b,Flicker:1b,Colors:[I;10082049]},{Type:4b,Trail:1b,Flicker:1b,Colors:[I;827836]},{Type:4b,Trail:1b,Flicker:1b,Colors:[I;6090123]},{Type:4b,Trail:1b,Flicker:1b,Colors:[I;2229790]},{Type:4b,Trail:1b,Flicker:1b,Colors:[I;10537061]},{Type:4b,Trail:1b,Flicker:1b,Colors:[I;15359376]},{Type:4b,Trail:1b,Flicker:1b,Colors:[I;2886159]},{Type:4b,Trail:1b,Flicker:1b,Colors:[I;12304530]},{Type:4b,Trail:1b,Flicker:1b,Colors:[I;16673033]},{Type:4b,Trail:1b,Flicker:1b,Colors:[I;9505700]},{Type:4b,Trail:1b,Flicker:1b,Colors:[I;3755987]},{Type:4b,Trail:1b,Flicker:1b,Colors:[I;13631302]},{Type:4b,Trail:1b,Flicker:1b,Colors:[I;5078253]},{Type:4b,Trail:1b,Flicker:1b,Colors:[I;4218872]},{Type:4b,Trail:1b,Flicker:1b,Colors:[I;9806551]},{Type:4b,Trail:1b,Flicker:1b,Colors:[I;12326458]},{Type:4b,Trail:1b,Flicker:1b,Colors:[I;12978193]},{Type:4b,Trail:1b,Flicker:1b,Colors:[I;6311564]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;14231323]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;4692334]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;6377077]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;1379168]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;6766751]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;14179554]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;4051993]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;1247860]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;15897443]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;15103126]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;4414717]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;11730888]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;4260711]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;11547786]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;453921]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;4579164]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;3126443]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;3027134]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;15648901]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;11066672]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;16190255]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;4668722]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;9859881]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;1666372]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;11447027]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;4484582]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;7516429]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;4801432]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;1144823]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;8722138]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;11896369]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;11686956]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;8492603]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;7523342]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;7485077]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;2806528]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;5007807]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;11886978]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;83513]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;12137492]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;3053187]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;10939190]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;10778909]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;11021160]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;1572999]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;507178]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;7000897]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;14331132]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;3132363]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;15887198]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;5544101]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;6286544]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;1596495]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;1034706]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;12012873]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;4677348]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;7558675]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;715910]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;14791981]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;11843384]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;10853655]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;4532090]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;16766033]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;3402188]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;14374235]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;13242030]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;4124341]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;5057184]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;4973279]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;8615458]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;3246169]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;5828020]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;12446115]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;11366870]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;7562557]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;9692936]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;4935079]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;9065930]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;9275745]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;7539356]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;6632171]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;5682686]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;1718469]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;3640432]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;1572207]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;8218226]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;2684777]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;12771460]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;9392435]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;752422]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;14846285]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;11188952]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;14291511]},{Type:4b,Trail:1b,Flicker:1b,Colors:[I;12304530]},{Type:4b,Trail:1b,Flicker:1b,Colors:[I;16673033]},{Type:4b,Trail:1b,Flicker:1b,Colors:[I;9505700]},{Type:4b,Trail:1b,Flicker:1b,Colors:[I;3755987]},{Type:4b,Trail:1b,Flicker:1b,Colors:[I;13631302]},{Type:4b,Trail:1b,Flicker:1b,Colors:[I;5078253]},{Type:4b,Trail:1b,Flicker:1b,Colors:[I;4218872]},{Type:4b,Trail:1b,Flicker:1b,Colors:[I;9806551]},{Type:4b,Trail:1b,Flicker:1b,Colors:[I;12326458]},{Type:4b,Trail:1b,Flicker:1b,Colors:[I;12978193]},{Type:4b,Trail:1b,Flicker:1b,Colors:[I;6311564]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;14231323]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;4692334]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;6377077]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;1379168]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;6766751]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;14179554]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;4051993]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;1247860]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;15897443]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;15103126]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;4414717]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;11730888]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;4260711]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;11547786]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;453921]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;4579164]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;3126443]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;3027134]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;15648901]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;11066672]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;16190255]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;4668722]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;9859881]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;1666372]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;11447027]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;4484582]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;7516429]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;4801432]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;1144823]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;8722138]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;11896369]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;11686956]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;8492603]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;7523342]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;7485077]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;2806528]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;5007807]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;11886978]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;83513]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;12137492]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;3053187]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;10939190]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;10778909]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;11021160]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;1572999]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;507178]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;7000897]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;14331132]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;3132363]},{Type:0b,Trail:1b,Flicker:1b,Colors:[I;15887198]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;5544101]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;6286544]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;1596495]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;1034706]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;12012873]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;4677348]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;7558675]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;715910]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;14791981]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;11843384]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;10853655]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;4532090]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;16766033]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;3402188]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;14374235]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;13242030]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;4124341]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;5057184]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;4973279]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;8615458]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;3246169]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;5828020]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;12446115]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;11366870]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;7562557]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;9692936]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;4935079]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;9065930]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;9275745]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;7539356]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;6632171]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;5682686]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;1718469]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;3640432]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;1572207]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;8218226]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;2684777]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;12771460]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;9392435]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;752422]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;14846285]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;11188952]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;14291511]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;6572058]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;7139953]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;9244524]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;15623291]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;3498318]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;1013461]},{Type:1b,Trail:1b,Flicker:1b,Colors:[I;10752576]},{Type:2b,Trail:1b,Flicker:1b,Colors:[I;15576063]},{Type:2b,Trail:1b,Flicker:1b,Colors:[I;11180738]},{Type:2b,Trail:1b,Flicker:1b,Colors:[I;9869945]},{Type:2b,Trail:1b,Flicker:1b,Colors:[I;10106708]},{Type:2b,Trail:1b,Flicker:1b,Colors:[I;11046083]},{Type:2b,Trail:1b,Flicker:1b,Colors:[I;14813302]},{Type:2b,Trail:1b,Flicker:1b,Colors:[I;16261469]},{Type:2b,Trail:1b,Flicker:1b,Colors:[I;10367656]},{Type:2b,Trail:1b,Flicker:1b,Colors:[I;6482631]},{Type:2b,Trail:1b,Flicker:1b,Colors:[I;10485354]},{Type:2b,Trail:1b,Flicker:1b,Colors:[I;3608449]},{Type:2b,Trail:1b,Flicker:1b,Colors:[I;11991100]},{Type:2b,Trail:1b,Flicker:1b,Colors:[I;14150155]},{Type:2b,Trail:1b,Flicker:1b,Colors:[I;4395166]},{Type:2b,Trail:1b,Flicker:1b,Colors:[I;8890597]},{Type:2b,Trail:1b,Flicker:1b,Colors:[I;5749776]},{Type:2b,Trail:1b,Flicker:1b,Colors:[I;8253071]},{Type:2b,Trail:1b,Flicker:1b,Colors:[I;16257810]},{Type:2b,Trail:1b,Flicker:1b,Colors:[I;11760009]},{Type:2b,Trail:1b,Flicker:1b,Colors:[I;3404324]},{Type:2b,Trail:1b,Flicker:1b,Colors:[I;695379]},{Type:2b,Trail:1b,Flicker:1b,Colors:[I;3021254]},{Type:2b,Trail:1b,Flicker:1b,Colors:[I;12397933]},{Type:2b,Trail:1b,Flicker:1b,Colors:[I;5459576]},{Type:2b,Trail:1b,Flicker:1b,Colors:[I;3594071]},{Type:2b,Trail:1b,Flicker:1b,Colors:[I;4880570]},{Type:2b,Trail:1b,Flicker:1b,Colors:[I;12902545]},{Type:2b,Trail:1b,Flicker:1b,Colors:[I;6669580]},{Type:2b,Trail:1b,Flicker:1b,Colors:[I;12764059]},{Type:2b,Trail:1b,Flicker:1b,Colors:[I;10273774]},{Type:2b,Trail:1b,Flicker:1b,Colors:[I;2871029]},{Type:2b,Trail:1b,Flicker:1b,Colors:[I;5736928]},{Type:2b,Trail:1b,Flicker:1b,Colors:[I;12174623]},{Type:2b,Trail:1b,Flicker:1b,Colors:[I;9621346]},{Type:2b,Trail:1b,Flicker:1b,Colors:[I;16284825]},{Type:2b,Trail:1b,Flicker:1b,Colors:[I;2429172]},{Type:2b,Trail:1b,Flicker:1b,Colors:[I;16154595]},{Type:2b,Trail:1b,Flicker:1b,Colors:[I;2928406]},{Type:2b,Trail:1b,Flicker:1b,Colors:[I;8039805]},{Type:2b,Trail:1b,Flicker:1b,Colors:[I;15666760]},{Type:2b,Trail:1b,Flicker:1b,Colors:[I;15128551]},{Type:2b,Trail:1b,Flicker:1b,Colors:[I;11581194]},{Type:2b,Trail:1b,Flicker:1b,Colors:[I;3106209]},{Type:2b,Trail:1b,Flicker:1b,Colors:[I;5141980]},{Type:2b,Trail:1b,Flicker:1b,Colors:[I;9433387]},{Type:2b,Trail:1b,Flicker:1b,Colors:[I;10451774]},{Type:2b,Trail:1b,Flicker:1b,Colors:[I;15001861]},{Type:2b,Trail:1b,Flicker:1b,Colors:[I;15236016]},{Type:2b,Trail:1b,Flicker:1b,Colors:[I;13774767]},{Type:2b,Trail:1b,Flicker:1b,Colors:[I;15191986]},{Type:3b,Trail:1b,Flicker:1b,Colors:[I;2014121]},{Type:3b,Trail:1b,Flicker:1b,Colors:[I;4363204]},{Type:3b,Trail:1b,Flicker:1b,Colors:[I;15546227]},{Type:3b,Trail:1b,Flicker:1b,Colors:[I;5949542]},{Type:3b,Trail:1b,Flicker:1b,Colors:[I;12165517]},{Type:3b,Trail:1b,Flicker:1b,Colors:[I;14053912]},{Type:3b,Trail:1b,Flicker:1b,Colors:[I;4451447]},{Type:3b,Trail:1b,Flicker:1b,Colors:[I;6273370]},{Type:3b,Trail:1b,Flicker:1b,Colors:[I;13606577]},{Type:3b,Trail:1b,Flicker:1b,Colors:[I;6687404]},{Type:3b,Trail:1b,Flicker:1b,Colors:[I;6320827]},{Type:3b,Trail:1b,Flicker:1b,Colors:[I;15218318]},{Type:3b,Trail:1b,Flicker:1b,Colors:[I;14415637]},{Type:3b,Trail:1b,Flicker:1b,Colors:[I;9408896]},{Type:3b,Trail:1b,Flicker:1b,Colors:[I;3681855]},{Type:3b,Trail:1b,Flicker:1b,Colors:[I;10753026]},{Type:3b,Trail:1b,Flicker:1b,Colors:[I;2043577]},{Type:3b,Trail:1b,Flicker:1b,Colors:[I;10582676]},{Type:3b,Trail:1b,Flicker:1b,Colors:[I;11518723]},{Type:3b,Trail:1b,Flicker:1b,Colors:[I;7693750]},{Type:3b,Trail:1b,Flicker:1b,Colors:[I;4393373]},{Type:3b,Trail:1b,Flicker:1b,Colors:[I;11434472]},{Type:3b,Trail:1b,Flicker:1b,Colors:[I;6231303]},{Type:3b,Trail:1b,Flicker:1b,Colors:[I;2391978]},{Type:3b,Trail:1b,Flicker:1b,Colors:[I;4099009]},{Type:3b,Trail:1b,Flicker:1b,Colors:[I;14779260]},{Type:3b,Trail:1b,Flicker:1b,Colors:[I;9783371]},{Type:3b,Trail:1b,Flicker:1b,Colors:[I;5502430]},{Type:3b,Trail:1b,Flicker:1b,Colors:[I;7993637]},{Type:3b,Trail:1b,Flicker:1b,Colors:[I;1166160]},{Type:3b,Trail:1b,Flicker:1b,Colors:[I;10272975]},{Type:3b,Trail:1b,Flicker:1b,Colors:[I;11836498]},{Type:3b,Trail:1b,Flicker:1b,Colors:[I;3331529]},{Type:3b,Trail:1b,Flicker:1b,Colors:[I;9880932]},{Type:3b,Trail:1b,Flicker:1b,Colors:[I;4137619]},{Type:3b,Trail:1b,Flicker:1b,Colors:[I;7964422]},{Type:3b,Trail:1b,Flicker:1b,Colors:[I;2090413]},{Type:3b,Trail:1b,Flicker:1b,Colors:[I;6038968]},{Type:3b,Trail:1b,Flicker:1b,Colors:[I;8999319]},{Type:3b,Trail:1b,Flicker:1b,Colors:[I;788986]},{Type:3b,Trail:1b,Flicker:1b,Colors:[I;5582033]},{Type:3b,Trail:1b,Flicker:1b,Colors:[I;3530828]},{Type:3b,Trail:1b,Flicker:1b,Colors:[I;13595099]},{Type:3b,Trail:1b,Flicker:1b,Colors:[I;16759086]},{Type:3b,Trail:1b,Flicker:1b,Colors:[I;6811445]},{Type:3b,Trail:1b,Flicker:1b,Colors:[I;7612704]},{Type:3b,Trail:1b,Flicker:1b,Colors:[I;15787871]},{Type:3b,Trail:1b,Flicker:1b,Colors:[I;4614306]},{Type:3b,Trail:1b,Flicker:1b,Colors:[I;13807833]},{Type:3b,Trail:1b,Flicker:1b,Colors:[I;12022836]}]},display:{Name:'{\\\"text\\\":\\\"更吹落，星如雨 \\\",\\\"color\\\":\\\"#D15151\\\",\\\"bold\\\":\\\"true\\\"}',Lore:['{\\\"text\\\":\\\"ID:O_EL001\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":\\\"false\\\"}','{\\\"text\\\":\\\"传说 装备\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":\\\"true\\\"}','{\\\"text\\\":\\\"来自仙古纪元的烟花\\\",\\\"color\\\":\\\"red\\\",\\\"bold\\\":\\\"true\\\"}','{\\\"text\\\":\\\"「前生似梦」：\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":\\\"true\\\"}','{\\\"text\\\":\\\"东风夜放花千树，更吹落、星如雨。\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":\\\"true\\\"}','{\\\"text\\\":\\\"宝马雕车香满路。凤箫声动，玉壶光转，一夜鱼龙舞。\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":\\\"true\\\"}','{\\\"text\\\":\\\"蛾儿雪柳黄金缕，笑语盈盈暗香去。\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":\\\"true\\\"}','{\\\"text\\\":\\\"众里寻他千百度。\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":\\\"true\\\"}','{\\\"text\\\":\\\"蓦然回首，那人却在，灯火阑珊处。\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":\\\"true\\\"}']},HideFlags:32} 365\"}}
+458
+黑炎
+{\"text\":\"黑炎\",\"color\":\"#711131\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/give @a enderman_spawn_egg{Enchantments:[{id:thorns,lvl:255}],display:{Name:'{\\\"text\\\":\\\"黑炎 \\\",\\\"color\\\":\\\"#311131\\\",\\\"bold\\\":\\\"true\\\"}',Lore:['{\\\"text\\\":\\\"ID:O_EI001\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":\\\"false\\\"}','{\\\"text\\\":\\\"不朽 道具\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":\\\"true\\\"}','{\\\"text\\\":\\\"蕴含湮灭之火的封印物，仙诡纪元的见证者\\\",\\\"color\\\":\\\"purple\\\",\\\"bold\\\":\\\"true\\\"}','{\\\"text\\\":\\\"「死亡之语」：\\\",\\\"color\\\":\\\"dark_red\\\",\\\"bold\\\":\\\"true\\\"}','{\\\"text\\\":\\\"燃烧！毁灭！\\\",\\\"color\\\":\\\"red\\\",\\\"bold\\\":\\\"true\\\"}','{\\\"text\\\":\\\"终焉！\\\",\\\"color\\\":\\\"black\\\",\\\"bold\\\":\\\"true\\\"}']},EntityTag:{id:\\\"minecraft:area_effect_cloud\\\",Duration:160,RadiusOnUse:4,DurationOnUse:80,WaitTime:1,Radius:8,RadiusPerTick:-0.05,Particle:squid_ink,Effects:[{Id:7,Amplifier:29,Duration:100,ShowParticles:1},{Id:6,Amplifier:29,Duration:100,ShowParticles:1}]}} 1\"}}
+501
+命皇权能\\n
+{\"text\":\"命皇权能\\n\",\"color\":\"#101010\"}
+502
+  交易移植
+{\"text\":\"  交易移植\",\"color\":\"#108010\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/data modify entity @e[type=minecraft:item,limit=1,sort=nearest] Item.tag.EntityTag.Offers set from entity @e[distance=0.2..5,limit=1,sort=nearest,type=!minecraft:item,type=!minecraft:fireball,type=!minecraft:area_effect_cloud,type=!minecraft:dragon_fireball,type=!#minecraft:arrows] Offers\"}}
+504
+转生流民
+{\"text\":\"转生流民\",\"color\":\"#303010\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/data modify entity @e[type=minecraft:item,limit=1,sort=nearest] Item.tag.EntityTag.id set value 'minecraft:wandering_trader'\"}}

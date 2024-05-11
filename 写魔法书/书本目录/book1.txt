@@ -1,0 +1,426 @@
+1
+123
+{\"text\":\"123\",\"color\":\"#56040C\",\"bold\":\"true\",\"italic\":\"true\",\"obfuscated\":\"true\"}
+2
+◇    魔    ◇
+{\"text\":\"◇    魔    ◇\",\"color\":\"#61D4FF\",\"obfuscated\":\"false\"}
+3
+123
+{\"text\":\"123\",\"color\":\"#C722AE\",\"bold\":\"true\",\"italic\":\"true\",\"obfuscated\":\"true\"}
+4
+\\n
+{\"text\":\"\\n\"}
+5
+123
+{\"text\":\"123\",\"color\":\"#26D4BB\",\"bold\":\"true\",\"italic\":\"true\",\"obfuscated\":\"true\"}
+6
+◇    法    ◇
+{\"text\":\"◇    法    ◇\",\"color\":\"#6FC553\",\"obfuscated\":\"false\"}
+7
+123
+{\"text\":\"123\",\"color\":\"#22142C\",\"bold\":\"true\",\"italic\":\"true\",\"obfuscated\":\"true\"}
+8
+\\n
+{\"text\":\"\\n\"}
+9
+123
+{\"text\":\"123\",\"color\":\"#2CBBF7\",\"bold\":\"true\",\"italic\":\"true\",\"obfuscated\":\"true\"}
+10
+◇    之    ◇
+{\"text\":\"◇    之    ◇\",\"color\":\"#FF9E72\",\"obfuscated\":\"false\"}
+11
+123
+{\"text\":\"123\",\"color\":\"#4E8F23\",\"bold\":\"true\",\"italic\":\"true\",\"obfuscated\":\"true\"}
+12
+\\n
+{\"text\":\"\\n\"}
+13
+123
+{\"text\":\"123\",\"color\":\"#8A0CAC\",\"bold\":\"true\",\"italic\":\"true\",\"obfuscated\":\"true\"}
+14
+◇    书    ◇
+{\"text\":\"◇    书    ◇\",\"color\":\"#8940E3\",\"obfuscated\":\"false\"}
+15
+123
+{\"text\":\"123\",\"color\":\"#473ABF\",\"bold\":\"true\",\"italic\":\"true\",\"obfuscated\":\"true\"}
+16
+\\n
+{\"text\":\"\\n\"}
+17
+         11          
+{\"text\":\"         11          \",\"color\":\"#475939\"}
+18
+\\n
+{\"text\":\"\\n\"}
+19
+        1111         
+{\"text\":\"        1111         \",\"color\":\"#D293C2\",\"bold\":\"true\",\"italic\":\"true\"}
+20
+\\n
+{\"text\":\"\\n\"}
+21
+       111111    
+{\"text\":\"       111111     \",\"color\":\"#91AC87\",\"bold\":\"true\",\"italic\":\"true\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/reload\"}}
+22
+\\n
+{\"text\":\"\\n\"}
+23
+    1111
+{\"text\":\"    1111\",\"color\":\"#EAE3EE\",\"bold\":\"true\",\"italic\":\"true\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/reload\"}}
+24
+    
+{\"text\":\"    \",\"color\":\"#83C1E6\",\"bold\":\"true\",\"italic\":\"true\",\"obfuscated\":\"false\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/reload\"}}
+25
+1111
+{\"text\":\"1111\",\"color\":\"#521C4C\",\"bold\":\"true\",\"italic\":\"true\",\"obfuscated\":\"true\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/reload\"}}
+26
+\\n
+{\"text\":\"\\n\"}
+27
+      11111111 
+{\"text\":\"      11111111 \",\"color\":\"#2B8C88\",\"bold\":\"true\",\"italic\":\"true\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/reload\"}}
+28
+\\n
+{\"text\":\"\\n\"}
+29
+       111111
+{\"text\":\"       111111\",\"color\":\"#4CA52D\",\"bold\":\"true\",\"italic\":\"true\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/reload\"}}
+30
+\\n
+{\"text\":\"\\n\"}
+31
+        1111
+{\"text\":\"        1111\",\"color\":\"#1377CF\",\"bold\":\"true\",\"italic\":\"true\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/reload\"}}
+32
+\\n
+{\"text\":\"\\n\"}
+33
+         11
+{\"text\":\"         11\",\"color\":\"#153EEC\",\"bold\":\"true\",\"italic\":\"true\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/reload\"}}
+101
+刷新请按下方跳动字节\\n
+{\"text\":\"刷新请按下方跳动字节\\n\",\"color\":\"#12FF74\",\"bold\":\"true\"}
+102
+-----刷新-----\\n
+{\"text\":\"-----刷新-----\\n\",\"color\":\"#FF6FB2\",\"bold\":\"true\",\"obfuscated\":\"true\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/function give:reload\"}}
+103
+-----刷新-----\\n
+{\"text\":\"-----刷新-----\\n\",\"color\":\"#226F12\",\"bold\":\"true\",\"obfuscated\":\"true\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/function give:reload\"}}
+104
+-----刷新-----\\n
+{\"text\":\"-----刷新-----\\n\",\"color\":\"#5F11EE\",\"bold\":\"true\",\"obfuscated\":\"true\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/function give:reload\"}}
+105
+按下面词条跳转目录
+{\"text\":\"按下面词条跳转目录\",\"color\":\"#517B12\"}
+106
+\\n
+{\"text\":\"\\n\"}
+107
+数据子条目
+{\"text\":\"数据子条目\",\"color\":\"#38E9AC\",\"clickEvent\":{\"action\":\"change_page\",\"value\":5}}
+108
+\\n
+{\"text\":\"\\n\"}
+109
+升级与进阶
+{\"text\":\"升级与进阶\",\"color\":\"#A6D839\",\"clickEvent\":{\"action\":\"change_page\",\"value\":9}}
+110
+\\n
+{\"text\":\"\\n\"}
+111
+检测子条目
+{\"text\":\"检测子条目\",\"color\":\"#927F78\",\"clickEvent\":{\"action\":\"change_page\",\"value\":14}}
+112
+\\n
+{\"text\":\"\\n\"}
+113
+权柄子条目
+{\"text\":\"权柄子条目\",\"color\":\"#C771B2\",\"clickEvent\":{\"action\":\"change_page\",\"value\":20}}
+114
+\\n
+{\"text\":\"\\n\"}
+201
+Hello!I'm your guider! \\n
+{\"text\":\"Hello!I'm your guider! \\n\",\"color\":\"#B6C96C\"}
+202
+欢迎使用新的iphone系列\\n
+{\"text\":\"欢迎使用新的iphone系列\\n\",\"color\":\"#E02221\"}
+203
+本系列手机采用魔能驱动\\n
+{\"text\":\"本系列手机采用魔能驱动\\n\",\"color\":\"#21DBBD\"}
+204
+您的操作系统已是当前的最新版本\\n
+{\"text\":\"您的操作系统已是当前的最新版本\\n\",\"color\":\"#781593\"}
+205
+当前版本号为iPh10.7.9\\n
+{\"text\":\"当前版本号为iPh10.7.9\\n\",\"color\":\"#D81862\"}
+206
+在此由衷感谢您对我们的支持！\\n为此，我们给您提供了免费会员机会！\\n
+{\"text\":\"在此由衷感谢您对我们的支持！\\n为此，我们给您提供了免费会员机会！\\n\",\"color\":\"#F1C6AD\"}
+207
+恭喜您成为普通注册会员\\n
+{\"text\":\"恭喜您成为普通注册会员\\n\",\"color\":\"#3E453F\"}
+208
+您的注册码为a9WjBL:9PoaV=p<g\\n
+{\"text\":\"您的注册码为a9WjBL:9PoaV=p<g\\n\",\"color\":\"#2EE83D\"}
+301
+本产品最后更新时间为2022/2/9 19:41:49\\n
+{\"text\":\"本产品最后更新时间为2022/2/9 19:41:49\\n\",\"color\":\"#ACE0C8\"}
+302
+最后，欢迎来到“乐园”！\\n享受吧！\\n
+{\"text\":\"最后，欢迎来到“乐园”！\\n享受吧！\\n\",\"color\":\"#C4B051\"}
+401
+我的数据\\n
+{\"text\":\"我的数据\\n\",\"color\":\"#92A71C\"}
+402
+阴阳之力：
+{\"text\":\"阴阳之力：\",\"color\":\"gold\",\"bold\":\"true\"}
+403
+{\"name\":\"*\",\"objective\":\"money\"}
+{\"score\":{\"name\":\"*\",\"objective\":\"money\"},\"color\":\"gold\",\"bold\":\"true\"}
+404
+\\n
+{\"text\":\"\\n\"}
+405
+通用货币：
+{\"text\":\"通用货币：\",\"color\":\"dark_gray\",\"bold\":\"true\"}
+406
+{\"name\":\"*\",\"objective\":\"currency\"}
+{\"score\":{\"name\":\"*\",\"objective\":\"currency\"},\"color\":\"dark_gray\",\"bold\":\"true\"}
+407
+￥\\n
+{\"text\":\"￥\\n\",\"color\":\"dark_gray\",\"bold\":\"true\"}
+408
+护甲值：
+{\"text\":\"护甲值：\",\"color\":\"gray\",\"bold\":\"true\"}
+409
+{\"name\":\"*\",\"objective\":\"armor\"}
+{\"score\":{\"name\":\"*\",\"objective\":\"armor\"},\"color\":\"gray\",\"bold\":\"true\"}
+410
+\\n
+{\"text\":\"\\n\"}
+411
+生命值：
+{\"text\":\"生命值：\",\"color\":\"red\",\"bold\":\"true\"}
+412
+{\"name\":\"*\",\"objective\":\"health\"}
+{\"score\":{\"name\":\"*\",\"objective\":\"health\"},\"color\":\"red\",\"bold\":\"true\"}
+413
+\\n
+{\"text\":\"\\n\"}
+414
+等级：
+{\"text\":\"等级：\",\"color\":\"gold\",\"bold\":\"true\"}
+415
+{\"name\":\"*\",\"objective\":\"level\"}
+{\"score\":{\"name\":\"*\",\"objective\":\"level\"},\"color\":\"gold\",\"bold\":\"true\"}
+416
+\\n
+{\"text\":\"\\n\"}
+501
+击退抗性基础属性:
+{\"text\":\"击退抗性基础属性:\",\"color\":\"#FF3372\",\"bold\":\"true\"}
+502
+Attributes.[{Name:\\\"minecraft:generic.knockback_resistance\\\"}].Base
+{\"nbt\":\"Attributes.[{Name:\\\"minecraft:generic.knockback_resistance\\\"}].Base\",\"color\":\"#81FF72\",\"bold\":\"true\",\"entity\":\"@p\"}
+503
+\\n
+{\"text\":\"\\n\"}
+504
+攻速基础属性:
+{\"text\":\"攻速基础属性:\",\"color\":\"#8E1F05\",\"bold\":\"true\"}
+505
+Attributes.[{Name:\\\"minecraft:generic.attack_speed\\\"}].Base
+{\"nbt\":\"Attributes.[{Name:\\\"minecraft:generic.attack_speed\\\"}].Base\",\"color\":\"#FFD722\",\"bold\":\"true\",\"entity\":\"@p\"}
+506
+\\n
+{\"text\":\"\\n\"}
+507
+力量基础属性:
+{\"text\":\"力量基础属性\",\"color\":\"#1719B4\",\"bold\":\"true\"}
+508
+Attributes.[{Name:\\\"minecraft:generic.attack_damage\\\"}].Base
+{\"nbt\":\"Attributes.[{Name:\\\"minecraft:generic.attack_damage\\\"}].Base\",\"color\":\"#FFD722\",\"bold\":\"true\",\"entity\":\"@p\"}
+509
+\\n
+{\"text\":\"\\n\"}
+510
+速度基础属性:
+{\"text\":\"速度基础属性\",\"color\":\"#4672F7\",\"bold\":\"true\"}
+511
+Attributes.[{Name:\\\"minecraft:generic.movement_speed\\\"}].Base
+{\"nbt\":\"Attributes.[{Name:\\\"minecraft:generic.movement_speed\\\"}].Base\",\"color\":\"#22D7EE\",\"bold\":\"true\",\"entity\":\"@p\"}
+512
+\\n
+{\"text\":\"\\n\"}
+513
+盔甲韧性基础属性:
+{\"text\":\"盔甲韧性基础属性:\",\"color\":\"#003EB6\",\"bold\":\"true\"}
+514
+Attributes.[{Name:\\\"minecraft:generic.armor_toughness\\\"}].Base
+{\"nbt\":\"Attributes.[{Name:\\\"minecraft:generic.armor_toughness\\\"}].Base\",\"color\":\"#11A722\",\"bold\":\"true\",\"entity\":\"@p\"}
+515
+\\n
+{\"text\":\"\\n\"}
+516
+盔甲基础属性:
+{\"text\":\"盔甲基础属性:\",\"color\":\"#003EB6\",\"bold\":\"true\"}
+517
+Attributes.[{Name:\\\"minecraft:generic.armor\\\"}].Base
+{\"nbt\":\"Attributes.[{Name:\\\"minecraft:generic.armor\\\"}].Base\",\"color\":\"#AAD7D2\",\"bold\":\"true\",\"entity\":\"@p\"}
+518
+\\n
+{\"text\":\"\\n\"}
+519
+幸运基础属性:
+{\"text\":\"幸运基础属性:\",\"color\":\"#FF3EA6\",\"bold\":\"true\"}
+520
+Attributes.[{Name:\\\"minecraft:generic.luck\\\"}].Base
+{\"nbt\":\"Attributes.[{Name:\\\"minecraft:generic.luck\\\"}].Base\",\"color\":\"#DDF722\",\"bold\":\"true\",\"entity\":\"@p\"}
+521
+\\n
+{\"text\":\"\\n\"}
+522
+生命上限基础属性:
+{\"text\":\"生命上限基础属性:\",\"color\":\"#FF56B6\",\"bold\":\"true\"}
+523
+Attributes.[{Name:\\\"minecraft:generic.max_health\\\"}].Base
+{\"nbt\":\"Attributes.[{Name:\\\"minecraft:generic.max_health\\\"}].Base\",\"color\":\"#EED7D2\",\"bold\":\"true\",\"entity\":\"@p\"}
+524
+\\n
+{\"text\":\"\\n\"}
+801
+升级与进阶
+{\"text\":\"升级与进阶\",\"color\":\"#9827C9\",\"bold\":\"true\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger trigger set 100\"},\"clickEvent\":{\"action\":\"change_page\",\"value\":2}}
+802
+\\n
+{\"text\":\"\\n\"}
+803
+等级：
+{\"text\":\"等级：\",\"color\":\"#B7FC28\",\"bold\":\"true\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger trigger set 100\"}}
+804
+{\"name\":\"*\",\"objective\":\"level\"}
+{\"score\":{\"name\":\"*\",\"objective\":\"level\"},\"color\":\"#85FF53\",\"bold\":\"true\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger trigger set 100\"},\"clickEvent\":{\"action\":\"change_page\",\"value\":2}}
+805
+\\n
+{\"text\":\"\\n\"}
+806
+您本级的经验为:
+{\"text\":\"您本级的经验为:\",\"color\":\"#329106\"}
+807
+{\"name\":\"*\",\"objective\":\"exp\"}
+{\"score\":{\"name\":\"*\",\"objective\":\"exp\"},\"color\":\"#69FF35\"}
+808
+\\n
+{\"text\":\"\\n\"}
+809
+升级所需的经验为:
+{\"text\":\"升级所需的经验为:\",\"color\":\"#69FF35\"}
+810
+{\"name\":\"*\",\"objective\":\"exp1\"}
+{\"score\":{\"name\":\"*\",\"objective\":\"exp1\"},\"color\":\"#69FF8D\"}
+811
+\\n
+{\"text\":\"\\n\"}
+812
+点击跳动字节尝试升级
+{\"text\":\"点击跳动字节尝试升级\",\"color\":\"#69B935\"}
+813
+\\n
+{\"text\":\"\\n\"}
+814
+点击跳动字节尝试升级
+{\"text\":\"点击跳动字节尝试升级\",\"color\":\"#D0B9B2\",\"obfuscated\":\"true\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger trigger set 100\"}}
+815
+\\n
+{\"text\":\"\\n\"}
+816
+您剩余的属性点有：
+{\"text\":\"您剩余的属性点有：\",\"color\":\"#85FF53\",\"bold\":\"true\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger trigger set 100\"},\"clickEvent\":{\"action\":\"change_page\",\"value\":2}}
+817
+{\"name\":\"*\",\"objective\":\"shuxingdian\"}
+{\"score\":{\"name\":\"*\",\"objective\":\"shuxingdian\"},\"color\":\"#B0FF53\",\"bold\":\"true\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger trigger set 100\"},\"clickEvent\":{\"action\":\"change_page\",\"value\":2}}
+818
+\\n
+{\"text\":\"\\n\"}
+1301
+附近20格范围内的实体有
+{\"text\":\"附近20格范围内的实体有\",\"color\":\"#1A43A0\",\"bold\":\"true\"}
+1302
+\\n
+{\"text\":\"\\n\"}
+1303
+@e[distance=0.001..20]
+{\"selector\":\"@e[distance=0.001..20]\",\"color\":\"#FF7AFF\"}
+1304
+\\n
+{\"text\":\"\\n\"}
+1305
+最近的实体是
+{\"text\":\"最近的实体是\",\"color\":\"#9F7A9A\"}
+1306
+@e[distance=0.001..20,limit=1,sort=nearest]
+{\"selector\":\"@e[distance=0.001..20,limit=1,sort=nearest]\",\"color\":\"#FF7AEA\"}
+1307
+\\n
+{\"text\":\"\\n\"}
+1308
+他们的生命值是\\n
+{\"text\":\"他们的生命值是\\n\",\"color\":\"#FF7A9A\"}
+1309
+Health
+{\"nbt\":\"Health\",\"color\":\"#FF8587\",\"bold\":\"true\",\"entity\":\"@e[distance=0.001..20]\"}
+1901
+发动能力1
+{\"text\":\"发动能力1\",\"color\":\"#C1B08F\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger trigger set 1\"}}
+1902
+\\n
+{\"text\":\"\\n\"}
+1903
+发动能力2
+{\"text\":\"发动能力2\",\"color\":\"#1D6769\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger trigger set 2\"}}
+1904
+\\n
+{\"text\":\"\\n\"}
+1905
+发动能力3
+{\"text\":\"发动能力3\",\"color\":\"#0E4D9B\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger trigger set 3\"}}
+1906
+\\n
+{\"text\":\"\\n\"}
+1907
+发动能力4
+{\"text\":\"发动能力4\",\"color\":\"#5068F7\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger trigger set 4\"}}
+1908
+\\n
+{\"text\":\"\\n\"}
+1909
+发动能力5
+{\"text\":\"发动能力5\",\"color\":\"#9001B3\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger trigger set 5\"}}
+1910
+\\n
+{\"text\":\"\\n\"}
+1911
+发动能力6
+{\"text\":\"发动能力6\",\"color\":\"#F5280E\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger trigger set 6\"}}
+1912
+\\n
+{\"text\":\"\\n\"}
+1913
+发动能力7
+{\"text\":\"发动能力7\",\"color\":\"#F5FC23\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger trigger set 7\"}}
+1914
+\\n
+{\"text\":\"\\n\"}
+1915
+发动能力8
+{\"text\":\"发动能力8\",\"color\":\"#1894B0\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger trigger set 8\"}}
+1916
+\\n
+{\"text\":\"\\n\"}
+1917
+发动能力9
+{\"text\":\"发动能力9\",\"color\":\"#142DC9\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger trigger set 9\"}}
+1918
+\\n
+{\"text\":\"\\n\"}

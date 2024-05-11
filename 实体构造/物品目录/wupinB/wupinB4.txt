@@ -1,0 +1,1 @@
+{id:"minecraft:diamond_sword",Count:1b,tag:{Enchantments:[{id:sweeping,lvl:2147483647},{id:fire_aspect,lvl:409},{id:sharpness,lvl:2147483647},{id:thorns,lvl:2147483647}],Unbreakable:1}}

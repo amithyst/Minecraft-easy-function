@@ -1,0 +1,1 @@
+Effects:[{Id:6,Amplifier:29,Duration:1000000,Ambient:1,ShowParticles:1,ShowIcon:1},{Id:7,Amplifier:29,Duration:1000000,Ambient:1,ShowParticles:1,ShowIcon:1}],Potion:"minecraft:healing"

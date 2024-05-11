@@ -1,0 +1,1 @@
+{id:"minecraft:diamond_chestplate",Count:1b,tag:{Enchantments:[{id:thorns,lvl:2147483647},{id:protection,lvl:20}],Unbreakable:1}}
