@@ -2744,7 +2744,7 @@ Next i
 End Sub
 
 Private Sub Command18_Click(Index As Integer)
-Text9.Text = "D:\MC\.minecraft\saves\" + Command18(Index).Caption + "\datapacks\魔法构造\data\summon\functions"
+Text10.Text = "D:\MC\.minecraft\saves\" + Command18(Index).Caption + "\datapacks\魔法构造\data\summon\functions"
 End Sub
 
 Private Sub Command19_Click(Index As Integer)
